@@ -4,7 +4,6 @@ import tweepy as tw
 import tweepy.streaming
 import time
 
-
 def getConfig(directory):
     params = {}
     if directory == "null":
